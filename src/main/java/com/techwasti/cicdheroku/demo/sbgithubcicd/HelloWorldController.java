@@ -9,7 +9,7 @@ public class HelloWorldController {
     @GetMapping("/hello")
     String helloWorld(){
 
-        return "Helloworld, Welcome to github cicd action with heroku demo!";
+        return "Helloworld, Welcome to github cicd action with heroku demo! I am Kennedy";
         
     }
 }
