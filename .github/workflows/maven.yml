@@ -20,8 +20,9 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '8'
-        distribution: 'temurin'
-        cache: maven
+        #distribution: 'temurin'
+        #cache: maven
+      
     - name: Deploy to Heroku
       uses: AkhileshNS/heroku-deploy@v3.12.12
       with:
